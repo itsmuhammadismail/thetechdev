@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// Varibales
+$color-1: #193498;
+$color-2: #113cfc;
+$color-3: #1597e5;
+$color-4: #69dadb;
+$text-color: #1b1b1b;
+$bg-color: #f5f5f5;
+
 html,
 body {
   padding: 0;
@@ -20,8 +30,7 @@ a {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -31,13 +40,12 @@ h4,
 h5,
 h6,
 p {
-  color: #1b1b1b;
+  color: $text-color;
 }
 
 .body1 {
   font-size: 1rem;
 }
-
 .body2 {
   font-size: 1.125rem;
 }
@@ -45,58 +53,42 @@ p {
 .h0 {
   font-size: 6.25rem;
 }
-
 .h1 {
   font-size: 4.5rem;
 }
-
 .h2 {
   font-size: 4rem;
 }
-
 .h3 {
   font-size: 3rem;
 }
-
 .h4 {
   font-size: 2.25rem;
 }
-
 .h5 {
   font-size: 1.5rem;
 }
-
 .h6 {
   font-size: 1.125rem;
 }
 
 .color-2 {
-  color: #113cfc;
+  color: $color-2;
 }
 
 .bg-color {
-  background-color: #f5f5f5;
+  background-color: $bg-color;
 }
 
 .mobile-menu {
   position: fixed;
   z-index: 100;
-  background-color: #193498;
+  background-color: $color-1;
   top: 0rem;
   right: 0;
   width: 100%;
   height: 100vh;
-  -webkit-animation: menu 0.5s ease-in-out;
-          animation: menu 0.5s ease-in-out;
-}
-
-@-webkit-keyframes menu {
-  0% {
-    top: -100vh;
-  }
-  100% {
-    top: 0;
-  }
+  animation: menu 0.5s ease-in-out;
 }
 
 @keyframes menu {
@@ -114,7 +106,6 @@ p {
   background-size: cover;
   position: relative;
 }
-
 .service::after {
   content: "";
   position: absolute;
@@ -125,4 +116,3 @@ p {
   background-color: #113cfc;
   opacity: 0.8;
 }
-/*# sourceMappingURL=globals.css.map */

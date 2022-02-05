@@ -36,7 +36,7 @@ const Projects = () => {
             </div>
           </div>
           <img
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1000"
             src="/images/Tab-Laptop-and-Mob-Mockup.png"
             alt=""

@@ -6,22 +6,22 @@ const Nav = () => {
       <ul className="list-none flex gap-12">
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a className="hover:text-[#3d8aca]">Home</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Projects</a>
+            <a className="hover:text-[#3d8aca]">Projects</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Services</a>
+            <a className="hover:text-[#3d8aca]">Services</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>About Us</a>
+            <a className="hover:text-[#3d8aca]">About Us</a>
           </Link>
         </li>
         <li>

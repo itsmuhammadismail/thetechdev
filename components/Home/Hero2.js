@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="pt-[5rem] md:pt-[6rem] relative">
       <video autoPlay muted loop id="myVideo">
-        <source src="/videos/neuronious.mp4" type="video/mp4" />
+        <source src="https://wh1010845.ispot.cc/Neuronious-Bg.mp4" type="video/mp4" />
       </video>
       <div
         className="hero h-[calc(100vh-10rem)] px-12"

@@ -9,7 +9,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="py-6 px-12">
+    <header className="py-6 px-12 fixed z-[50] w-full bg-white shadow-md">
       <div className="max-w-[70rem] mx-auto flex justify-between items-center">
         <img src="/logo.svg" alt="" className="h-[2rem] md:h-[3rem]" />
         <Nav />

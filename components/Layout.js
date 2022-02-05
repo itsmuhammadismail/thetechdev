@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import WhatsApp from "./WhatsAppFloating";
 
 const Layout = ({ children }) => {
   return (
@@ -7,6 +8,7 @@ const Layout = ({ children }) => {
       <Header />
       {children}
       <Footer />
+      <WhatsApp />
     </main>
   );
 };

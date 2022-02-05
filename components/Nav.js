@@ -10,27 +10,23 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          {" "}
           <Link href="/">
             <a>Projects</a>
           </Link>
         </li>
         <li>
-          {" "}
           <Link href="/">
             <a>Services</a>
           </Link>
         </li>
         <li>
-          {" "}
           <Link href="/">
-            <a>About</a>
+            <a>About Us</a>
           </Link>
         </li>
         <li>
-          {" "}
           <Link href="/">
-            <a>Contact</a>
+            <a className="border btn border-[#333] px-8 py-3">Contact Us</a>
           </Link>
         </li>
       </ul>

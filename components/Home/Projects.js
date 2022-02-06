@@ -48,14 +48,14 @@ const Projects = () => {
               data-aos-duration="1000"
               src="/images/Tablet-Mockup.png"
               alt=""
-              className="relative top-[-9rem] right-[-10rem] w-[10rem]"
+              className="relative top-[-9rem] right-[-10rem] w-[10rem] md:w-[9rem]"
             />
             <img
               data-aos="fade-right"
               data-aos-duration="1000"
               src="/images/Mobile-Mockup.png"
               alt=""
-              className="relative top-[-19rem] right-[-3rem] w-[5rem]"
+              className="relative top-[-19rem] right-[-3rem] w-[4rem] md:w-[5rem]"
             />
           </div>
           {/* <img

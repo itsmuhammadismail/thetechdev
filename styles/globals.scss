@@ -177,12 +177,12 @@ div {
 }
 
 .hero {
-  // background-repeat: no-repeat;
-  // background-position: center center;
-  // background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   position: relative;
   // height: calc(100vh-6rem);
-  width: 100%;
+  width: 100vw;
 }
 .hero::after {
   content: "";

@@ -186,8 +186,11 @@ div {
 }
 
 .hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .hero::after {

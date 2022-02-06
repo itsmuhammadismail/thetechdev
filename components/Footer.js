@@ -4,7 +4,7 @@ import { useState } from "react";
 const Footer = () => {
   const [year, setYear] = useState(new Date().getFullYear());
   return (
-    <footer className="px-12 bg-[#333333]">
+    <footer className="px-12 bg-[#333333] relative z-[30] ">
       <div className="py-16 max-w-[70rem] mx-auto flex justify-center gap-8 flex-wrap">
         <div className="flex-[2] flex flex-col items-start logo">
           <img src="/logo2.svg" alt="" className="h-[3rem]" />

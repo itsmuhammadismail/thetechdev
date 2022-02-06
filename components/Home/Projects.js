@@ -2,8 +2,8 @@ import Button from "../Button";
 
 const Projects = () => {
   return (
-    <div className="px-12">
-      <div className="max-w-[70rem] pt-24 pb-36 mx-auto flex flex-col text-center items-center justify-center">
+    <div className="px-12 relative z-[30] bg-white">
+      <div className="max-w-[70rem] pt-24 pb-[20rem] md:pb-36 mx-auto flex flex-col text-center items-center justify-center">
         <h4
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -22,7 +22,7 @@ const Projects = () => {
           <div
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="flex flex-col gap-4  md:mr-[4rem]"
+            className="flex flex-col gap-4 md:mr-[4rem]"
           >
             <div className="text-left bg-color p-8 md:p-12 w-full pb-[5rem]">
               <h5 className="h5 font-bold pb-2">Point of Sale</h5>
@@ -35,13 +35,36 @@ const Projects = () => {
               <Button text="View Demo" />
             </div>
           </div>
-          <img
+          <div className="md:max-w-[30rem] absolute md:top-[-1rem] md:right-0">
+            <img
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              src="/images/Laptop-Mockup.png"
+              alt=""
+              className="relative top-0 w-[20rem] right-[2rem]"
+            />
+            <img
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              src="/images/Tablet-Mockup.png"
+              alt=""
+              className="relative top-[-9rem] right-[-10rem] w-[10rem]"
+            />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              src="/images/Mobile-Mockup.png"
+              alt=""
+              className="relative top-[-19rem] right-[-3rem] w-[5rem]"
+            />
+          </div>
+          {/* <img
             data-aos="fade-up"
             data-aos-duration="1000"
             src="/images/Tab-Laptop-and-Mob-Mockup.png"
             alt=""
             className="md:max-w-[30rem] absolute bottom-[-11rem] md:top-[-1rem] md:right-0"
-          />
+          /> */}
         </div>
       </div>
     </div>

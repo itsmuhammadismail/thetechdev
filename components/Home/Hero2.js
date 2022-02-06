@@ -1,12 +1,12 @@
 const Hero = () => {
   return (
-    <div className="pt-[5rem] md:pt-[6rem] relative">
-      <video autoPlay muted loop id="myVideo">
-        <source src="https://wh1010845.ispot.cc/Neuronious-Bg.mp4" type="video/mp4" />
-      </video>
+    <div className="pt-[5rem] md:pt-[6rem] fixed w-full">
+      {/* <video autoPlay muted loop id="myVideo">
+        <source src="/videos/neronious_video.mp4" type="video/mp4" />
+      </video> */}
       <div
         className="hero h-[calc(100vh-10rem)] px-12"
-        // style={{ backgroundImage: "url(/images/hero.png)" }}
+        style={{ backgroundImage: "url(/images/BG-GIF.gif)" }}
       >
         <div className="relative z-[10] max-w-[70rem] mx-auto h-full flex flex-col justify-center gap-4 ">
           <h2

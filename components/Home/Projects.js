@@ -41,7 +41,7 @@ const Projects = () => {
               data-aos-duration="1000"
               src="/images/Laptop-Mockup.png"
               alt=""
-              className="relative top-0 w-[20rem] right-[2rem]"
+              className="relative top-0 w-[18rem] md:w-[20rem] md:right-[2rem]"
             />
             <img
               data-aos="fade-up"

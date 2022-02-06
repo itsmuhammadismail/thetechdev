@@ -72,7 +72,7 @@ const Services = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1000"
-              data-aos-delay="600"
+              data-aos-delay="200"
               className=" h-[12rem] min-w-[20rem] service s4 flex items-center justify-center"
               style={{ backgroundImage: "url(/images/graphics.jpg)" }}
             >
@@ -90,7 +90,7 @@ const Services = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1000"
-              data-aos-delay="800"
+              data-aos-delay="400"
               className=" h-[12rem] min-w-[20rem] service s5 flex items-center justify-center"
               style={{ backgroundImage: "url(/images/ui.jpg)" }}
             >
@@ -102,7 +102,7 @@ const Services = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1000"
-              data-aos-delay="1000"
+              data-aos-delay="600"
               className=" h-[12rem] min-w-[20rem] service s6 flex items-center justify-center"
               style={{ backgroundImage: "url(/images/ecom.jpg)" }}
             >

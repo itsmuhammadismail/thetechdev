@@ -35,7 +35,7 @@ const Projects = () => {
               <Button text="View Demo" />
             </div>
           </div>
-          <div className="md:max-w-[30rem] absolute md:top-[-1rem] md:right-0">
+          <div className="md:max-w-[30rem] absolute md:top-[-1rem] md:right-0 pr-[1rem]">
             <img
               data-aos="fade-down"
               data-aos-duration="1000"
@@ -48,14 +48,14 @@ const Projects = () => {
               data-aos-duration="1000"
               src="/images/Tablet-Mockup.png"
               alt=""
-              className="relative top-[-9rem] right-[-10rem] w-[10rem] md:w-[9rem]"
+              className="relative top-[-9rem] right-[-8rem] md:right-[-10rem] w-[9rem] md:w-[10rem]"
             />
             <img
               data-aos="fade-right"
               data-aos-duration="1000"
               src="/images/Mobile-Mockup.png"
               alt=""
-              className="relative top-[-19rem] right-[-3rem] w-[4rem] md:w-[5rem]"
+              className="relative top-[-17rem] md:top-[-19rem] right-[-3rem] w-[4rem] md:w-[5rem]"
             />
           </div>
           {/* <img

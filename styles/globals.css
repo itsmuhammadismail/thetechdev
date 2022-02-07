@@ -264,4 +264,23 @@ footer {
             align-items: center;
   }
 }
+
+.gradient-bg {
+  background: -webkit-gradient(linear, left top, right top, color-stop(51.3%, #3d8aca), color-stop(120.72%, rgba(135, 170, 199, 0.455208)), color-stop(162.53%, rgba(196, 196, 196, 0)));
+  background: linear-gradient(90deg, #3d8aca 51.3%, rgba(135, 170, 199, 0.455208) 120.72%, rgba(196, 196, 196, 0) 162.53%);
+}
+
+.bg-member {
+  background-color: rgba(61, 138, 202, 0.7);
+}
+
+.member-hover {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.member:hover .member-hover {
+  opacity: 1;
+}
 /*# sourceMappingURL=globals.css.map */

@@ -10,12 +10,12 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/projects">
             <a className="hover:text-[#3d8aca]">Projects</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/services">
             <a className="hover:text-[#3d8aca]">Services</a>
           </Link>
         </li>
@@ -25,7 +25,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/contact">
             <a className="border btn border-[#333] px-8 py-3">Contact Us</a>
           </Link>
         </li>

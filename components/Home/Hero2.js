@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="pt-[5rem] md:pt-[6rem] fixed w-full">
+    <div className="pt-[4rem] md:pt-[5rem] fixed w-full">
       {/* <video autoPlay muted loop id="myVideo">
         <source src="/videos/neronious_video.mp4" type="video/mp4" />
       </video> */}

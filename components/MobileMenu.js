@@ -17,28 +17,28 @@ const MobileMenu = ({ close }) => {
             <img src="" />
           </li>
           <li>
-            <Link href="">
+            <Link href="/">
               <a className="text-white">Home</a>
             </Link>
           </li>
           <li>
-            <Link href="">
+            <Link href="/projects">
               <a className="text-white">Project</a>
             </Link>
           </li>
           <li>
-            <Link href="">
+            <Link href="/services">
               <a className="text-white">Services</a>
             </Link>
           </li>
           <li>
-            <Link href="">
-              <a className="text-white">About</a>
+            <Link href="/about">
+              <a className="text-white">About Us</a>
             </Link>
           </li>
           <li>
-            <Link href="">
-              <a className="text-white">Contact</a>
+            <Link href="/contact">
+              <a className="text-white">Contact Us</a>
             </Link>
           </li>
         </ul>

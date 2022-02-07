@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Top from "../components/Top";
 import Layout from "../components/Layout";
-import Team from "../components/About/Team";
+import Top from "../components/Top";
 
-const About = () => {
+const Services = () => {
   return (
     <div>
       <Head>
@@ -20,10 +19,9 @@ const About = () => {
             audiences."
           img="/images/abt-bg.jpg"
         />
-        <Team />
       </Layout>
     </div>
   );
 };
 
-export default About;
+export default Services;

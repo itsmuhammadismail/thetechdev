@@ -18,27 +18,27 @@ const Footer = () => {
           <h5 className="h6 font-semibold text-white">Quick Links</h5>
           <ul className="mt-4 flex flex-col gap-1">
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="text-white">Home</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/projects">
                 <a className="text-white">Projects</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/services">
                 <a className="text-white">Services</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/about">
                 <a className="text-white">About</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/contact">
                 <a className="text-white">Contact</a>
               </Link>
             </li>

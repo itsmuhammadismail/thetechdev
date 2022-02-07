@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className="pt-[calc(100vh-4rem)]">
+    <div className="pt-[calc(100vh-5rem)]">
       <div className="bg-color px-12 relative z-[30] ">
         <div className="max-w-[70rem] py-24 mx-auto flex flex-col text-center items-center justify-center">
           <h3

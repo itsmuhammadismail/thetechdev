@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Top from "../components/Top";
 import Layout from "../components/Layout";
-import Team from "../components/About/Team";
+import Top from "../components/Top";
 
-const About = () => {
+const Contact = () => {
   return (
     <div>
       <Head>
@@ -12,7 +11,7 @@ const About = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
-        <Top
+      <Top
           heading="We are Experts in"
           desc="Websites, landing pages, interactive campaigns, or just about any
             other digital media needed, we can merge innovative ideas with
@@ -20,10 +19,9 @@ const About = () => {
             audiences."
           img="/images/abt-bg.jpg"
         />
-        <Team />
       </Layout>
     </div>
   );
 };
 
-export default About;
+export default Contact;

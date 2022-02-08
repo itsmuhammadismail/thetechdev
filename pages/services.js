@@ -82,17 +82,10 @@ const Services = () => {
                 <div className="flex-1 w-full h-full  ">
                   <div className="w-full h-full flex items-start md:items-center justify-center md:justify-end ">
                     <img
-                      src="/images/webdev-desk.png"
+                      src="/images/Web-Des.png"
                       alt=""
-                      className="absolute h-[10rem] md:h-[15rem]"
+                      className="relative h-[15rem] md:h-[25rem]"
                       data-aos="fade-down"
-                      data-aos-duration="1000"
-                    />
-                    <img
-                      src="/images/webdev-mob.png"
-                      alt=""
-                      className="relative h-[8rem] md:h-[10rem] bottom-[-4rem]"
-                      data-aos="fade-up"
                       data-aos-duration="1000"
                     />
                   </div>
@@ -290,13 +283,45 @@ const Services = () => {
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 w-full h-full order-2 md:order-[0]">
-                  <div className="w-full h-full flex items-start md:items-center justify-center md:justify-start ">
+                  <div className="w-full h-full flex items-start md:items-center justify-center md:justify-start relative">
                     <img
-                      src="/images/graphics.png"
+                      src="/images/Ecom-5.png"
                       alt=""
-                      className="relative h-[15rem] md:h-[25rem]"
+                      className="absolute h-[15rem] md:h-[10rem] top-[0rem] left-[0rem]"
                       data-aos="fade-down"
                       data-aos-duration="1000"
+                      data-aos-delay="300"
+                    />
+                    <img
+                      src="/images/Ecom-4.png"
+                      alt=""
+                      className="absolute h-[15rem] md:h-[10rem] top-[-4rem] left-[2rem]"
+                      data-aos="fade-down"
+                      data-aos-duration="1000"
+                      data-aos-delay="600"
+                    />
+                    <img
+                      src="/images/Ecom-1.png"
+                      alt=""
+                      className="relative h-[15rem] md:h-[15rem] left-[5rem]"
+                      data-aos="fade-down"
+                      data-aos-duration="1000"
+                    />
+                    <img
+                      src="/images/Ecom-3.png"
+                      alt=""
+                      className="absolute h-[15rem] md:h-[10rem] top-[-2.8rem] right-[7rem]"
+                      data-aos="fade-down"
+                      data-aos-duration="1000"
+                      data-aos-delay="900"
+                    />
+                    <img
+                      src="/images/Ecom-2.png"
+                      alt=""
+                      className="absolute h-[15rem] md:h-[12rem] top-[9rem] left-[1rem]"
+                      data-aos="fade-down"
+                      data-aos-duration="1000"
+                      data-aos-delay="1200"
                     />
                   </div>
                 </div>

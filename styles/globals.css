@@ -8,6 +8,9 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  background-color: white;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
 }
 
 body {
@@ -282,5 +285,30 @@ footer {
 
 .member:hover .member-hover {
   opacity: 1;
+}
+
+/* colours */
+.color-violet {
+  background-color: #5c43ad;
+}
+
+.color-indigo {
+  background-color: #0786d3;
+}
+
+.color-blue {
+  background-color: #74a071;
+}
+
+.color-green {
+  background-color: #9e4344;
+}
+
+.color-yellow {
+  background-color: #c1a553;
+}
+
+.color-orange {
+  background-color: #936255;
 }
 /*# sourceMappingURL=globals.css.map */

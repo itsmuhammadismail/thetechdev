@@ -10,21 +10,25 @@ const Team = () => {
             img="Zain.jpg"
             name="Zainuddin Mughal"
             des="Co-Founder & CMO"
+            link="https://www.linkedin.com/in/zainuddin-mughal-115003217/"
           />
           <Member
             img="Ismail.jpg"
             name="Muhammad Ismail"
             des="Co-Founder & CTO"
+            link="https://www.linkedin.com/in/itsmuhammadismail/"
           />
           <Member
             img="Areeba.jpg"
             name="Areeba Tanveer"
             des="Co-Founder & CFO"
+            link="https://www.linkedin.com/in/areeba-tanveer-ab430b220"
           />
           <Member
             img="Haseeb.jpeg"
             name="Muhammad Haseeb"
             des="Co-Founder & COO"
+            link="https://www.linkedin.com/in/muhammadhaseebullah"
           />
         </div>
       </div>

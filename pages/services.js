@@ -257,20 +257,29 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="flex-1 w-full h-full  ">
-                  <div className="w-full h-full flex items-center justify-end gap-4">
+                  <div className="relative w-full h-full flex items-center justify-end gap-4">
                     <img
-                      src="/images/App-1.png"
+                      src="/images/UI-left.png"
                       alt=""
-                      className="relative h-[20rem] md:h-[25rem]"
+                      className="absolute top-[-2rem] left-[0rem] h-[5rem] md:h-[9rem]"
                       data-aos="fade-down"
                       data-aos-duration="1000"
                     />
                     <img
-                      src="/images/App-2.png"
+                      src="/images/UI-main.png"
                       alt=""
-                      className="relative h-[20rem] md:h-[25rem] bottom-[-4rem]"
-                      data-aos="fade-up"
+                      className="relative h-[6rem] md:h-[11rem] top-0 md:top-[2rem] left-[7rem] md:left-[9rem]"
+                      data-aos="fade-down"
+                      data-aos-delay="300"
                       data-aos-duration="1000"
+                    />
+                    <img
+                      src="/images/UI-right.png"
+                      alt=""
+                      className="relative h-[6rem] md:h-[11rem] top-[2rem] md:top-[6rem] left-[1rem] md:left-[-1rem]"
+                      data-aos="fade-down"
+                      data-aos-duration="1000"
+                      data-aos-delay="600"
                     />
                   </div>
                 </div>
@@ -287,15 +296,15 @@ const Services = () => {
                     <img
                       src="/images/Ecom-5.png"
                       alt=""
-                      className="absolute h-[15rem] md:h-[10rem] top-[0rem] left-[0rem]"
-                      data-aos="fade-down"
+                      className="absolute h-[8rem] md:h-[10rem] top-[0rem] left-[0rem]"
+                      data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="300"
                     />
                     <img
                       src="/images/Ecom-4.png"
                       alt=""
-                      className="absolute h-[15rem] md:h-[10rem] top-[-4rem] left-[2rem]"
+                      className="absolute h-[8rem] md:h-[10rem] top-[-2rem] md:top-[-4rem] left-[2rem]"
                       data-aos="fade-down"
                       data-aos-duration="1000"
                       data-aos-delay="600"
@@ -303,14 +312,14 @@ const Services = () => {
                     <img
                       src="/images/Ecom-1.png"
                       alt=""
-                      className="relative h-[15rem] md:h-[15rem] left-[5rem]"
+                      className="relative h-[10rem] md:h-[15rem] left-[1rem] md:left-[5rem]"
                       data-aos="fade-down"
                       data-aos-duration="1000"
                     />
                     <img
                       src="/images/Ecom-3.png"
                       alt=""
-                      className="absolute h-[15rem] md:h-[10rem] top-[-2.8rem] right-[7rem]"
+                      className="absolute h-[8rem] md:h-[10rem] top-[-2.8rem] right-[0] md:right-[7rem]"
                       data-aos="fade-down"
                       data-aos-duration="1000"
                       data-aos-delay="900"
@@ -318,8 +327,8 @@ const Services = () => {
                     <img
                       src="/images/Ecom-2.png"
                       alt=""
-                      className="absolute h-[15rem] md:h-[12rem] top-[9rem] left-[1rem]"
-                      data-aos="fade-down"
+                      className="absolute h-[8rem] md:h-[12rem] top-[4rem] md:top-[9rem] left-[1rem]"
+                      data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="1200"
                     />

@@ -257,9 +257,9 @@ const Services = () => {
                   >
                     Want to build your product with a team that establishes a
                     clear design process, meets deadlines, and delivers a
-                    spot-on end result? Turn to Neuronious's UI and UX services.
-                    Our design team is a small design studio within a large
-                    software company that will help you build an engaging
+                    spot-on end result? Turn to Neuronious&apos;s UI and UX
+                    services. Our design team is a small design studio within a
+                    large software company that will help you build an engaging
                     product easily and quickly.
                   </p>
                 </div>

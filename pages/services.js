@@ -55,7 +55,8 @@ const Services = () => {
             {/* Web designing */}
             <div
               data-color="violet"
-              className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center "
+              id="web-designing"
             >
               <div className="max-w-[70rem] mx-auto flex flex-col md:flex-row gap-12 items-center h-full">
                 <div className="md:flex-1 flex flex-col gap-4 justify-center py-12 text-center md:text-left">
@@ -96,6 +97,7 @@ const Services = () => {
             <div
               data-color="indigo"
               className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              id="web-development"
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 w-full h-full order-2 md:order-[0]">
@@ -144,6 +146,7 @@ const Services = () => {
             <div
               data-color="blue"
               className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              id="app-development"
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 flex flex-col gap-4 text-center md:text-left">
@@ -192,6 +195,7 @@ const Services = () => {
             <div
               data-color="green"
               className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              id="graphics-designing"
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 w-full h-full order-2 md:order-[0]">
@@ -232,6 +236,7 @@ const Services = () => {
             <div
               data-color="yellow"
               className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              id="ui-ux-designing"
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 flex flex-col gap-4 text-center md:text-left">
@@ -289,6 +294,7 @@ const Services = () => {
             <div
               data-color="orange"
               className="min-h-[calc(100vh-10rem)] panel w-full px-12 flex items-center"
+              id="e-commerce"
             >
               <div className="max-w-[70rem] mx-auto flex gap-12 items-center h-full flex-col md:flex-row">
                 <div className="flex-1 w-full h-full order-2 md:order-[0]">

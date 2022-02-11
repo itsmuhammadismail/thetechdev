@@ -7,7 +7,7 @@ const Top = ({ heading, desc, img }) => {
           <h2
             data-aos="fade-right"
             data-aos-duration="1000"
-            className="text-[3rem] md:text-[4rem] font-bold text-white leading-tight"
+            className="max-w-[50rem] text-[3rem] md:text-[4rem] font-bold text-white leading-tight"
           >
             {heading}
           </h2>

@@ -54,7 +54,7 @@ const Footer = () => {
               rel="noreferrer"
               className="text-white"
             >
-              +92 300 1008892
+              +92 300 1008922
             </a>
           </div>
           <div className="flex gap-2 items-center my-4">

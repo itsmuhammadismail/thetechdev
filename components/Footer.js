@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="max-w-[25rem] min-w-[12rem] mt-4 text-white">
             We are Neuronious, a full-service Creative Digital Agency who
             empower ambitious businesses. Our team of experts specialize in All
-            Kinds of Websites, Branding and Mobile Aplication.
+            Kinds of Websites, Branding and Mobile Application.
           </p>
         </div>
         <div className="flex-1 min-w-[10rem]">

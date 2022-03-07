@@ -9,9 +9,7 @@ const Footer = () => {
         <div className="flex-[2] flex flex-col items-start logo">
           <img src="/logo2.svg" alt="" className="h-[3rem]" />
           <p className="max-w-[25rem] min-w-[12rem] mt-4 text-white">
-            We are Neuronious, a full-service Creative Digital Agency who
-            empower ambitious businesses. Our team of experts specialize in All
-            Kinds of Websites, Branding and Mobile Application.
+          We are Neuronious, which intends to bring different businesses into new Creative Digital Marketing world , to enhance their future, empowers ambitious goals , Our experts particularise in all different aspects of WEBSITES, BRANDING AND MOBILE APPLICATIONS.
           </p>
         </div>
         <div className="flex-1 min-w-[10rem]">

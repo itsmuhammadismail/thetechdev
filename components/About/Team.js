@@ -18,18 +18,17 @@ const Team = () => {
             des="Co-Founder & COO"
             link="https://www.linkedin.com/in/muhammadhaseebullah"
           />
-
-          <Member
-            img="Areeba.jpg"
-            name="Areeba Tanveer"
-            des="Co-Founder & CFO"
-            link="https://www.linkedin.com/in/areeba-tanveer-ab430b220"
-          />
           <Member
             img="Ismail.jpg"
             name="Muhammad Ismail"
             des="Co-Founder & CTO"
             link="https://www.linkedin.com/in/itsmuhammadismail/"
+          />
+          <Member
+            img="Areeba.jpg"
+            name="Areeba Tanveer"
+            des="Co-Founder & CFO"
+            link="https://www.linkedin.com/in/areeba-tanveer-ab430b220"
           />
         </div>
         <div className="flex flex-wrap gap-8">

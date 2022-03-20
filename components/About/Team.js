@@ -34,7 +34,7 @@ const Team = () => {
         <div className="flex flex-wrap gap-8">
           <Member
             img="Kawish.jpg"
-            name="Kawish Habibzade"
+            name="Kawash Habibzade"
             des="Co-Founder & Creative Head"
             link="https://www.linkedin.com/in/mir-kawash-habibzade-790964158/"
           />

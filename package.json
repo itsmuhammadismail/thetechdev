@@ -2,11 +2,10 @@
   "name": "neuronious",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint",
-    "export": "next export"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "aos": "^2.3.4",

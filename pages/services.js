@@ -36,8 +36,8 @@ const Services = () => {
   return (
     <div>
       <Head>
-        <title>Neuronious</title>
-        <meta name="description" content="Neuronious" />
+        <title>The Tech Dev</title>
+        <meta name="description" content="The Tech Dev" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
@@ -73,7 +73,7 @@ const Services = () => {
                     data-aos-delay="300"
                     className="text-white"
                   >
-                    Neuronious specializes in website design and development
+                    The Tech Dev specializes in website design and development
                     services. Our web experiences are high-performing,
                     feature-packed and digitally transformative, designed to be
                     user-friendly, fully functional, very secure and able to
@@ -136,7 +136,7 @@ const Services = () => {
                     marketing tool, and differentiate yourself from your
                     competitors.Our website developers provide expert web
                     application development and web design services to our
-                    clients. Neuronious offers a variety of website design and
+                    clients. The Tech Dev offers a variety of website design and
                     development services,
                   </p>
                 </div>
@@ -255,7 +255,7 @@ const Services = () => {
                   >
                     Want to build your product with a team that establishes a
                     clear design process, meets deadlines, and delivers a
-                    spot-on end result? Turn to Neuronious&apos;s UI and UX
+                    spot-on end result? Turn to The Tech Dev&apos;s UI and UX
                     services. Our design team is a small design studio within a
                     large software company that will help you build an engaging
                     product easily and quickly.

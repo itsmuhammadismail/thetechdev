@@ -10,14 +10,14 @@ const Services = () => {
             data-aos-duration="1000"
             className="h4 font-bold"
           >
-            Neuronious is specialized in.
+            The Tech Dev is specialized in.
           </h3>
           <p
             data-aos="fade-right"
             data-aos-duration="1000"
             className="max-w-[42rem] my-[1.875rem]"
           >
-            We are Neuronious, a full-service Creative Digital Agency who
+            We are The Tech Dev, a full-service Creative Digital Agency who
             empower ambitious businesses. Our team of experts specialize in All
             Kinds of Websites, Branding and Mobile Aplication.
           </p>

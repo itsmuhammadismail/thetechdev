@@ -14,7 +14,11 @@ const Header = () => {
       <div className="max-w-[70rem] mx-auto flex justify-between items-center">
         <Link href="/">
           <a>
-            <img src="/logo.svg" alt="" className="h-[2rem] md:h-[3rem]" />
+            <img
+              src="/thetechdev.svg"
+              alt=""
+              className="h-[2rem] md:h-[3rem]"
+            />
           </a>
         </Link>
         <Nav />

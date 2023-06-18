@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>Neuronious</title>
-        <meta name="description" content="Neuronious" />
+        <title>The Tech Dev</title>
+        <meta name="description" content="The Tech Dev" />
         <link rel="icon" href="/favicon.png" />
         
       </Head>

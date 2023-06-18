@@ -9,21 +9,21 @@ const Nav = () => {
             <a className="hover:text-[#3d8aca]">Home</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/projects">
             <a className="hover:text-[#3d8aca]">Projects</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/services">
             <a className="hover:text-[#3d8aca]">Services</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/about">
             <a className="hover:text-[#3d8aca]">About Us</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/contact">
             <a className="border btn border-[#333] px-8 py-3">Contact Us</a>

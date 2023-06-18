@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div>
       <Head>
-        <title>Neuronious</title>
-        <meta name="description" content="Neuronious" />
+        <title>The Tech Dev</title>
+        <meta name="description" content="The Tech Dev" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
             <div className="flex gap-4 mt-8">
               <a
-                href="http://wa.me/+923001008922"
+                href="http://wa.me/+923181162186"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -36,7 +36,7 @@ const Contact = () => {
                 />
               </a>
               <a
-                href="https://www.facebook.com/neuronious"
+                href="https://www.facebook.com/thetechdev.io"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -46,7 +46,7 @@ const Contact = () => {
                   className="h-[5rem]"
                 />
               </a>
-              <a
+              {/* <a
                 href="https://www.instagram.com/theneuronious"
                 target="_blank"
                 rel="noreferrer"
@@ -67,7 +67,7 @@ const Contact = () => {
                   alt=""
                   className="h-[5rem]"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

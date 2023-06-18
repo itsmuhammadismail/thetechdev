@@ -7,9 +7,12 @@ const Footer = () => {
     <footer className="px-12 bg-[#333333] relative z-[30] ">
       <div className="py-16 max-w-[70rem] mx-auto flex justify-center gap-8 flex-wrap">
         <div className="flex-[2] flex flex-col items-start logo">
-          <img src="/logo2.svg" alt="" className="h-[3rem]" />
+          <img src="/thetechdev-white.svg" alt="" className="h-[3rem]" />
           <p className="max-w-[25rem] min-w-[12rem] mt-4 text-white">
-          We are Neuronious, which intends to bring different businesses into new Creative Digital Marketing world , to enhance their future, empowers ambitious goals , Our experts particularise in all different aspects of WEBSITES, BRANDING AND MOBILE APPLICATIONS.
+            We are The Tech Dev, which intends to bring different businesses
+            into new Creative Digital Marketing world , to enhance their future,
+            empowers ambitious goals , Our experts particularise in all
+            different aspects of WEBSITES, BRANDING AND MOBILE APPLICATIONS.
           </p>
         </div>
         <div className="flex-1 min-w-[10rem]">
@@ -20,21 +23,21 @@ const Footer = () => {
                 <a className="text-white">Home</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/projects">
                 <a className="text-white">Projects</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/services">
                 <a className="text-white">Services</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/about">
                 <a className="text-white">About</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/contact">
                 <a className="text-white">Contact</a>
@@ -52,25 +55,25 @@ const Footer = () => {
               rel="noreferrer"
               className="text-white"
             >
-              +92 300 1008922
+              +92 318 1162186
             </a>
           </div>
           <div className="flex gap-2 items-center my-4">
             <a
-              href="http://wa.me/+923001008922"
+              href="http://wa.me/+923181162186"
               target="_blank"
               rel="noreferrer"
             >
               <img src="/icons/whatsapp.svg" alt="" className="h-[1.5rem]" />
             </a>
             <a
-              href="https://www.facebook.com/neuronious"
+              href="https://www.facebook.com/thetechdev.io"
               target="_blank"
               rel="noreferrer"
             >
               <img src="/icons/facebook.svg" alt="" className="h-[1.5rem]" />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/theneuronious"
               target="_blank"
               rel="noreferrer"
@@ -83,9 +86,9 @@ const Footer = () => {
               rel="noreferrer"
             >
               <img src="/icons/linkedin.svg" alt="" className="h-[1.5rem]" />
-            </a>
+            </a> */}
           </div>
-          <div className="text-white">&copy; Neuronious {year}</div>
+          <div className="text-white">&copy; The Tech Dev {year}</div>
           <div className="text-white">All Rights Reserved</div>
         </div>
       </div>
